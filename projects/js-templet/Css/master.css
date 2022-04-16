@@ -1,0 +1,772 @@
+/* * {
+  border: 3px solid black;
+} */
+
+:root {
+  --main-color: #f76e11;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Prosto One", cursive;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Yaldevi", sans-serif;
+}
+
+/* ===================== start setting box ===================== */
+
+.setting-box {
+  position: fixed;
+  left: -240px;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff;
+  width: 240px;
+  min-height: 100vh;
+  transition: 0.3s;
+}
+
+.open {
+  left: 0;
+  border: 1px solid #a2a3a3;
+}
+
+.setting-box .togell-setting {
+  position: absolute;
+  right: -51px;
+  top: 24%;
+  background-color: #fff;
+  font-size: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+.option-color button {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  background-color: #ef4c4c;
+  font-size: 22px;
+  font-weight: 600;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.setting-box .option-color {
+  background-color: #eee;
+  margin: 15px 18px;
+  padding: 3px 0;
+}
+.setting-box .togell-setting i {
+  width: 51px;
+  padding: 11px;
+}
+.setting-box .option-color h4 {
+  text-align: center;
+  margin: 17px;
+}
+.setting-box .option-color li {
+  list-style: none;
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.setting-box .option-color li.active {
+  opacity: 1;
+}
+
+.setting-box .option-color ul {
+  padding: 0px;
+  text-align: center;
+}
+.setting-box li:first-child {
+  background-color: #656;
+}
+
+.setting-box li:nth-child(2) {
+  background-color: #3e497a;
+}
+
+.setting-box li:nth-child(3) {
+  background-color: #ed5edd;
+}
+
+.setting-box li:nth-child(4) {
+  background-color: #ffe162;
+}
+.setting-box li:nth-child(5) {
+  background-color: #fb3640;
+}
+/* ========================= start option back  =========================*/
+
+.setting-box .option-back h4 {
+  font-size: 19px;
+}
+.setting-box .option-back span {
+  font-size: 18px;
+  display: inline-block;
+  background-color: var(--main-color);
+  margin: 12px 11px;
+  width: 38%;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  padding: 2px 0;
+  border-radius: 4px;
+  opacity: 0.5;
+  font-weight: 700;
+}
+
+.setting-box .option-back span.active {
+  opacity: 1;
+}
+/* ==========================  end option back ======================= */
+/* =====================  end setting box ===================== */
+.landing-page {
+  min-height: 100vh;
+  background-image: url("../imgs/pho\ \(2\).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.landing-page::before {
+  content: "";
+  position: absolute;
+  background-color: rgb(0 0 0 / 55%);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.landing-page .navbar {
+  position: relative;
+  z-index: 10000;
+}
+
+.landing-page .navbar .navbar-collapse ul {
+  margin-left: 32%;
+}
+.landing-page .navbar .collapse a {
+  margin: 0 23px 0;
+  width: 100%;
+}
+
+.landing-page .navbar .collapse a.active {
+  color: var(--main-color);
+}
+.landing-page .navbar .collapse a:hover,
+.landing-page .navbar .collapse a:active,
+.landing-page .navbar .collapse a:focus {
+  color: var(--main-color);
+}
+
+.landing-page .navbar a:hover,
+.landing-page .navbar a:active,
+.landing-page .navbar a:focus {
+  color: var(--main-color);
+}
+
+.intro-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 2;
+}
+.intro-content h1 {
+  width: 79%;
+  padding-left: 17%;
+  margin-bottom: 16px;
+}
+
+.intro-content span {
+  color: var(--main-color);
+}
+
+.intro-content p {
+  font-size: 19px;
+  line-height: 35px;
+}
+
+.landing-page .navbar a,
+.landing-page .navbar .collapse a {
+  color: #fff;
+  z-index: 2;
+  position: relative;
+}
+@media (max-width: 1024px) {
+  .landing-page .navbar .navbar-collapse ul {
+    margin-left: 16%;
+  }
+  .intro-content {
+    left: 0;
+    transform: none !important;
+    top: 32%;
+  }
+
+  .intro-content p {
+    font-size: 21px;
+    line-height: 37px;
+    font-weight: 500;
+    padding: 13px 111px;
+  }
+  .intro-content h1 {
+    width: 79%;
+    font-size: 42px;
+  }
+
+  .landing-page {
+    min-height: 83vh;
+  }
+
+  .landing-page .navbar .collapse a {
+    margin: 0 11px 0;
+  }
+}
+@media (max-width: 991px) {
+  .intro-content {
+    left: 0;
+    transform: none !important;
+    top: 32%;
+  }
+
+  .intro-content p {
+    font-size: 21px;
+    line-height: 37px;
+    font-weight: 500;
+    padding: 13px 83px;
+  }
+  .intro-content h1 {
+    width: 90%;
+    font-size: 42px;
+  }
+
+  .landing-page {
+    min-height: 83vh;
+  }
+
+  .landing-page .navbar .collapse a {
+    color: #000;
+  }
+  .landing-page .navbar .navbar-collapse {
+    background-color: #fff;
+  }
+
+  .landing-page .navbar .navbar-collapse ul {
+    margin-left: 0%;
+  }
+}
+@media (max-width: 767px) {
+  .intro-content {
+    left: 0;
+    transform: none !important;
+    top: 25%;
+  }
+
+  .intro-content p {
+    font-size: 11px;
+    line-height: 25px;
+    font-weight: 400;
+    padding: 0 37px;
+  }
+
+  .intro-content h1 {
+    width: 100%;
+    margin-bottom: 16px;
+    font-size: 26px;
+    padding: 0;
+  }
+}
+/* ==================================== start about =========================== */
+.about {
+  margin: 65px 0;
+}
+.about .about-tex h4 {
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: capitalize;
+  color: var(--main-color);
+  margin: 0 0 12px 0px;
+}
+
+.about .about-tex p {
+  line-height: 32px;
+  font-weight: 300;
+  font-size: 19px;
+  /* width: 100%; */
+  text-transform: capitalize;
+}
+.about .about-img img {
+  width: 77%;
+  transform: translate(24%, 0px);
+}
+
+@media (max-width: 991px) {
+  .about .about-tex p {
+    line-height: 29px;
+    font-size: 17px;
+  }
+}
+@media (max-width: 767px) {
+  .about .about-tex p {
+    line-height: 28px;
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+}
+/* ==================================== end about =========================== */
+
+/* =================================== start of skill ======================= */
+.Gallary img {
+  margin: 9px 0;
+  padding: 6px 11px;
+  border-radius: 17px;
+  cursor: pointer;
+}
+
+.Gallary h4 {
+  text-align: center;
+  margin: 14px 0;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--main-color);
+  font-size: 35px;
+}
+/*     =====================  js popup Gallary ===================== */
+.popup-overrlay {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+
+.popup-box {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 10px;
+  z-index: 10014;
+}
+
+.popup-box img {
+  width: 100%;
+}
+
+.popup-box h3 {
+  font-weight: 700;
+  font-size: 27px;
+  text-align: center;
+  margin: 0 0 20px;
+  text-transform: capitalize;
+}
+
+.popup-box .close-Button {
+  right: -15px;
+  position: absolute;
+  top: -15px;
+  width: 43px;
+  height: 43px;
+  background-color: var(--main-color);
+  text-align: center;
+  border-radius: 49%;
+  padding: -3px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  cursor: pointer;
+}
+/* =================================== end of Gallary ======================= */
+
+/* =================================== start of timeline =================================*/
+
+.timeline {
+  background-color: #eee;
+  margin: 77px 0 0 0;
+  padding: 44px 0;
+}
+
+.timeline .temline-contant {
+  overflow: hidden;
+  position: relative;
+}
+
+.timeline .temline-contant .year {
+  text-align: center;
+  width: 50px;
+  background-color: var(--main-color);
+  left: 48%;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+.timeline .temline-contant::before {
+  content: "";
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background-color: var(--main-color);
+  position: absolute;
+  left: 50%;
+  margin-left: -1px;
+  border-radius: 10px;
+  margin-top: 4px;
+}
+
+.timeline .temline-contant .right,
+.timeline .temline-contant .left {
+  position: relative;
+  width: 45%;
+  margin: 20px 0;
+}
+
+.timeline .temline-contant .right {
+  float: right;
+}
+.timeline .temline-contant .left {
+  float: left;
+}
+
+.timeline .temline-contant .left::before,
+.timeline .temline-contant .right::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 3px solid var(--main-color);
+  position: absolute;
+  border-radius: 50%;
+  top: 22px;
+}
+
+.timeline .temline-contant .left::before {
+  right: -66px;
+}
+
+.timeline .temline-contant .right::before {
+  left: -65px;
+}
+
+.timeline .temline-contant .left .contant::before {
+  content: "";
+  border-style: solid;
+  border-width: 21px;
+  border-color: transparent transparent transparent #fff;
+  top: 10px;
+  right: -36px;
+  height: 0;
+  width: 0;
+  position: absolute;
+}
+.timeline .temline-contant .right .contant::before {
+  content: "";
+  border-style: solid;
+  border-width: 21px;
+  border-color: transparent #fff transparent transparent;
+  top: 10px;
+  left: -36px;
+  height: 0;
+  width: 0;
+  position: absolute;
+}
+
+.timeline .temline-contant .contant {
+  padding: 4px 11px;
+  line-height: 29px;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+.timeline .temline-contant h3 {
+  padding: 12px 0 5px 0px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+.clearfix {
+  clear: both;
+}
+
+@media (max-width: 1024px) {
+  .timeline .temline-contant .left::before {
+    right: -59px;
+  }
+
+  .timeline .temline-contant .right::before {
+    left: -55px;
+  }
+
+  .timeline .temline-contant .year {
+    text-align: center;
+    width: 78px;
+    left: 46%;
+  }
+}
+
+@media (max-width: 991px) {
+  .timeline .temline-contant .year {
+    left: 45%;
+  }
+  .timeline .temline-contant .left::before {
+    right: -46px;
+  }
+  .timeline .temline-contant .right::before {
+    left: -45px;
+  }
+}
+@media (max-width: 767px) {
+  .timeline .temline-contant h3 {
+    font-size: 14px;
+  }
+
+  .timeline .temline-contant .contant {
+    padding: 4px 7px;
+    line-height: 17px;
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  .timeline .temline-contant .year {
+    left: 39%;
+  }
+
+  .timeline .temline-contant .left,
+  .timeline .temline-contant .right {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .timeline .temline-contant .left::before,
+  .timeline .temline-contant .right::before {
+    display: none;
+  }
+
+  .timeline .temline-contant .right .contant::before,
+  .timeline .temline-contant .left .contant::before {
+    display: none !important;
+  }
+}
+
+/* =================================== end of timeline =================================*/
+
+/*  ============================ start of fetueres ================================= */
+
+.fetueres h5 {
+  text-align: center;
+  font-size: 34px;
+  margin: 31px 0;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--main-color);
+}
+
+.fetueres .feat-box {
+  text-align: center;
+}
+.fetueres .feat-box img {
+  width: 46%;
+  margin: 26px 16%;
+}
+
+.fetueres .feat-box h4 {
+  font-weight: 600;
+  font-family: inherit;
+  text-transform: capitalize;
+  padding: 0px 0 15px 0;
+}
+
+.fetueres .feat-box h4::before {
+  content: "";
+  width: 65px;
+  height: 5px;
+  left: 53%;
+  margin-left: -10%;
+  position: absolute;
+  background-color: var(--main-color);
+  border-radius: 37px;
+  bottom: 79px;
+}
+.fetueres .feat-box p {
+  line-height: 26px;
+  font-weight: 400;
+}
+/*  ============================ end of fetueres ================================= */
+
+/* =========================== start of feedback ================================= */
+.feedback-lol {
+  position: relative;
+}
+.feedback h4 {
+  text-align: center;
+  font-size: 34px;
+  margin: 31px 0;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  padding: 18px 0;
+}
+
+.feedback:before {
+  content: "";
+  width: 50%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background-color: var(--main-color);
+}
+
+.feedback::after {
+  content: "";
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  top: 0;
+  position: absolute;
+  background-color: #545;
+  z-index: -1;
+}
+.feedback .card {
+  margin: 0 0 44px 0;
+}
+
+.feedback .card .card-body {
+  margin: -12px 0 0 0;
+}
+.feedback .card .card-body img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 0 23px 0 0;
+}
+.feedback .card .card-text {
+  padding: 4px 16px;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+  color: #5a5a5a;
+  line-height: 27px;
+}
+
+.feedback .card .card-body h5 {
+  font-weight: 600;
+  margin: 6px 0;
+  padding: 8px 0 0 0;
+  text-transform: capitalize;
+}
+
+.feedback .card .card-body span {
+  font-weight: 100;
+  color: #767676;
+}
+
+/* =========================== end of feedback ================================= */
+
+/* ============================= start of contactUs ============================ */
+
+.contactUs {
+  min-height: 600px;
+  background-image: url("../imgs/map.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.contactUs::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #0000007a;
+}
+.contactUs .row {
+  margin-right: 4px;
+}
+.contactUs form {
+  position: relative;
+  width: 85%;
+  transform: translate(17%, 82%);
+}
+
+.contactUs form input {
+  height: 59px;
+}
+
+.contactUs .massage {
+  position: relative;
+  transform: translate(-3%, 75%);
+  padding: 0px 33px 0 39px;
+}
+
+.contactUs .massage textarea {
+  height: 57%;
+}
+
+.contactUs .massage button {
+  width: 100%;
+  height: 28%;
+  font-size: 31px;
+  background-color: var(--main-color);
+  margin: 20px 0 0 0;
+  color: #fff;
+}
+
+.contactUs .massage button:focus,
+.contactUs .massage button:hover {
+  box-shadow: none !important;
+  outline: none !important;
+  background-color: var(--main-color);
+}
+
+@media (max-width: 767px) {
+  .contactUs form {
+    transform: translate(8%, 50%);
+  }
+
+  .contactUs .massage {
+    transform: translate(0%, 81%);
+    padding: 0px 48px 0 39px;
+  }
+
+  .contactUs .massage button {
+    height: 41%;
+    font-size: 28px;
+  }
+}
+
+/* ============================= end of contactUs ============================ */
+
+/* ================================= footer ==================================== */
+
+.footer-copyright {
+  background-color: #333333;
+  color: #fff;
+  height: 60px;
+  text-align: center;
+  padding: 15px 0 0 0;
+}

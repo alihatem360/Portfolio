@@ -1,0 +1,369 @@
+* {
+  font-family: "Noto Sans JP", sans-serif;
+  text-transform: capitalize;
+}
+
+body {
+  background-color: black;
+}
+/* basec colors
+  
+  1: background-color: #d63031;
+  2:  color: #ffa801;
+  
+  */
+
+/*   <!-- -------------------------  Start of NAv --------------------- --> */
+.header a {
+  color: #f8f9fa;
+}
+.header .navbar {
+  background-color: #d63031;
+}
+
+.header .navbar a {
+  margin-right: 50%;
+}
+
+.header .navbar .navbar-nav .nav-item a {
+  font-size: 19px;
+  padding: 0 20px;
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.navbar-toggler i {
+  font-size: 30px;
+}
+
+.navbar span i {
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .header .navbar .navbar-nav .nav-item a {
+    padding: 6px 0px;
+  }
+}
+
+/*   <!-- -------------------------  End  of NAv --------------------- --> */
+
+/*img_home*/ /*img_home*/ /*img_home*/ /*img_home*/
+.img_home {
+  background-image: url(../index/img/19.jpg);
+  background-size: 100% 550px;
+  margin-top: 46px;
+  height: 550px;
+}
+
+.img_home p {
+  text-align: center;
+  font-size: 72px;
+  color: #ffa801;
+  padding-top: 13%;
+}
+
+.img_home h6 {
+  color: white;
+  font-size: 59px;
+
+  text-align: center;
+}
+
+.img_home img {
+  padding-left: 5px;
+}
+
+/*  checkout_menu    checkout_menu   checkout_menu   checkout_menu*/
+
+.checkout_menu {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.checkout_menu img {
+  padding-left: 10%;
+}
+
+.checkout_menu_text {
+  color: white;
+}
+
+.checkout_menu_text h2 {
+  color: #ffa801;
+}
+
+.checkout_menu_text p {
+  font-size: 25px;
+}
+
+.checkout_menu_text input {
+  background-color: #ffa801;
+  margin-top: 30px;
+  height: 40px;
+  font-size: 18px;
+}
+
+/*meet_our_team meet_our_team   vmeet_our_team   meet_our_team*/
+.meet_our_team {
+  background-color: #d63031;
+  text-align: center;
+}
+
+.meet_our_team img {
+  padding: 14px 33px 12px 37px;
+}
+
+.meet_our_team h2 {
+  color: #ffa801;
+  font-size: 52px;
+  padding-top: 5%;
+}
+
+.meet_our_team p {
+  font-size: 18px;
+  color: white;
+}
+
+.background_img_with_text {
+  background-image: url("../index/img/26.jpg");
+  height: 500px;
+  background-size: 100% 500px;
+  background-repeat: no-repeat;
+  margin-top: 57px;
+}
+
+.background_img_with_text div {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}
+
+.background_img_with_text i {
+  text-align: center;
+  font-size: 79px;
+  color: white;
+  padding-top: 11%;
+  padding-bottom: 10px;
+  padding-left: 50%;
+}
+
+/*//////////////////////////////////*/
+.food_menu {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 30px;
+  margin-bottom: 19px;
+}
+
+.food_menu_text1 {
+  color: white;
+}
+
+.food_menu i {
+  font-size: 90px;
+  color: #ffa801;
+}
+
+.food_menu h1 {
+  padding-top: 10px;
+  font-size: 20px;
+  color: #ffa801;
+}
+
+/* <!-- ======================= Start of footer ===========================  -->	 */
+
+.contaner {
+  background-color: #d63031;
+  color: #fff;
+  margin-right: 0px;
+}
+
+.contaner_1 {
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+.contaner_1 td,
+h3 {
+  padding-left: 30px;
+}
+
+.contaner_1 h3 {
+  margin-top: 48px;
+  font-size: 23px;
+}
+
+.contaner_1 table th {
+  padding-bottom: 30px;
+  padding-right: 16px;
+  font-size: 26px;
+  padding-left: 30px;
+}
+
+.contaner_1 td {
+  padding-top: 10px;
+}
+
+.contaner_2 {
+  font-size: 15px;
+  margin-top: 45px;
+}
+
+.contaner_2 p {
+  padding-top: 18px;
+}
+
+.contaner_2 i {
+  color: #ffa801;
+  padding-right: 18px;
+}
+
+.contaner_2 h2 {
+  font-size: 20px;
+  padding-top: 4px;
+}
+
+.contaner_3 {
+  margin-top: 40px;
+}
+.contaner_3 input {
+  text-align: center;
+  margin-top: 10px;
+  width: 75%;
+}
+
+.contaner_3 form .submit {
+  background-color: #ffa801;
+  width: 210px;
+  font-size: 20px;
+}
+
+.contaner_3 form .email {
+  padding-left: 10px;
+}
+
+.footer {
+  background-color: #d63031;
+  border-top: 6px dotted white;
+  margin-left: 4px;
+}
+
+.footer h6 {
+  color: white;
+}
+
+.footer div a {
+  margin-right: 72px;
+  font-size: 18px;
+  color: #e9ecef;
+}
+
+/* <!-- ======================= end of footer ===========================  -->	 */
+
+/*///////////////////////////   style for mobil*/
+/*///////////////////////////   style for mobil*/
+
+@media only screen and (max-width: 800px) {
+  .img_home {
+    margin-top: 28px;
+    background-size: 100% 325px;
+    height: 324px;
+  }
+  .img_home p {
+    padding-top: 29%;
+    font-size: 45px;
+  }
+
+  .img_home h6 {
+    font-size: 44px;
+  }
+
+  .checkout_menu img {
+    padding-left: 17px;
+  }
+
+  .checkout_menu_text {
+    margin-top: 24px;
+  }
+  .meet_our_team img {
+    padding: 18px 74px 0px 74px;
+  }
+
+  .meet_our_team p {
+    font-size: 0;
+  }
+  .background_img_with_text {
+    height: 258px;
+    background-size: 100% 275px;
+  }
+  .background_img_with_text div {
+    font-size: 21px;
+  }
+
+  .background_img_with_text i {
+    padding-left: 44%;
+    padding-top: 22%;
+    font-size: 44px;
+  }
+  .food_menu i {
+    margin-top: 43px;
+  }
+
+  .contaner_1 td,
+  h3 {
+    padding-left: 0px;
+  }
+  .contaner_1 table th {
+    padding-right: 78px;
+    font-size: 19px;
+    padding-left: 3px;
+  }
+
+  .contaner_1 h3 {
+    margin-top: 17px;
+    font-size: 22px;
+  }
+
+  .contaner_2 {
+    padding-left: 19px;
+    font-size: 15px;
+    margin-top: 55px;
+  }
+
+  .contaner_3 {
+    padding-left: 13px;
+  }
+
+  .contaner_3 input {
+    width: 100%;
+    font-size: 22px;
+    height: 58px;
+  }
+  .contaner_3 form .submit {
+    width: 100%;
+    font-size: 35px;
+    height: 58px;
+    margin-bottom: 19px;
+  }
+
+  .footer {
+    margin-top: -1px;
+  }
+
+  .footer h6 {
+    font-size: 20px;
+  }
+
+  .footer div a {
+    margin-right: 78px;
+  }
+}
+
+/*///////////////////////////   style for computer*/
+@media only screen and (min-width: 1000px) and (max-width: 1280px) {
+}

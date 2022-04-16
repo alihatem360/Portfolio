@@ -1,0 +1,321 @@
+*{
+
+font-family: 'Noto Sans JP', sans-serif;
+text-transform: capitalize;
+
+}
+
+body{
+background-color: black;
+}
+
+.nav{
+background-color: #d63031;
+
+}
+
+
+ /*   <!-- -------------------------  Start of NAv --------------------- --> */
+ .header a {
+	color: #f8f9fa;
+  }
+  .header .navbar {
+	background-color: #d63031;
+  }
+  
+  .header .navbar a {
+	margin-right: 50%;
+  }
+  
+  .header .navbar .navbar-nav .nav-item a {
+	font-size: 19px;
+	padding: 0 20px;
+  }
+  
+  .navbar-toggler:focus {
+	outline: none !important;
+	box-shadow: none !important;
+	border: none !important;
+  }
+  
+  .navbar-toggler i {
+	font-size: 30px;
+  }
+  
+  .navbar span i {
+	color: #fff;
+  }
+  
+  @media (max-width: 991px) {
+	.header .navbar .navbar-nav .nav-item a {
+	  padding: 6px 0px;
+	}
+  }
+  
+/*   <!-- -------------------------  End  of NAv --------------------- --> */
+
+
+
+
+/*///////////////////////*/
+.background_img_with_text{
+background-image: url("../index/img/30.png");
+height:500px;
+background-size: 100% 500px;
+background-repeat: no-repeat;
+ margin-top: 49px;
+}
+.background_img_with_text i{
+text-align: center;
+font-size: 40px;
+color: #fdcb6e; 
+padding-top: 10%;
+    padding-left: 118px;
+    width: 159px;
+
+
+}
+
+
+
+.contact {
+    margin-top: 30px;
+	    margin-bottom: 39px;
+
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+color: white;
+}
+
+.contact_form form input{
+margin-top: 25px;
+background-color:#535c68;
+font-size: 15px;
+color: white;
+}
+.contact_form form{
+
+}
+
+.contact_form form .message{
+width: 480px;
+height: 130px;
+}
+
+.contact_form form .name , .email{
+font-size:15px;
+width: 220px;
+height: 35px;
+margin-right: 26px;
+}
+
+.contact_form form .submit {
+    margin-left: 327px;
+    width: 143px;
+    background-color: #ffa801;
+    font-size: 23px;
+    color: black;
+}
+
+.contact_text {
+    color: white;
+    margin-top: 21px;
+}
+
+.contact_text h2{
+color: #ffa801;
+font-size: 20px;
+}
+
+.contact_text p{
+font-size: 25px;
+
+}
+
+
+/* <!-- ======================= Start of footer ===========================  -->	 */
+
+		.contaner{
+		background-color: #d63031;
+		color:#fff;
+		margin-right: 0px;
+		}
+
+		.contaner_1{
+		font-size: 15px;
+		margin-top: 40px;
+		}
+
+		.contaner_1 td , h3 {
+		padding-left: 30px;
+		}
+		
+		.contaner_1 h3 {
+		    margin-top: 48px;
+            font-size: 23px;
+		
+		}
+
+		.contaner_1 table th {
+    padding-bottom: 30px;
+    padding-right: 16px;
+    font-size: 26px;
+    padding-left: 30px;
+}
+
+		.contaner_1 td{
+		padding-top: 10px;
+		}
+
+		.contaner_2{
+	font-size: 15px;
+    margin-top: 45px;
+		}
+
+		.contaner_2 p{
+		    padding-top: 18px;
+
+		}
+
+		.contaner_2 i{
+	color: #ffa801;
+    padding-right: 18px;
+		
+		}
+	
+		.contaner_2 h2{
+	font-size: 20px;
+    padding-top: 4px;
+		}
+
+		.contaner_3{
+			    margin-top: 40px;
+
+		}
+		.contaner_3 input{
+		text-align:center;
+		margin-top: 10px;
+		width:75%;
+		}
+
+		.contaner_3 form .submit{
+		background-color:  #ffa801;
+		width: 210px;
+		font-size: 20px;
+		}
+
+		.contaner_3 form .email {
+		padding-left: 10px;
+		}
+		
+			
+			.footer{
+			background-color: #d63031;
+			border-top:  6px dotted white;
+		 margin-left: 4px;
+
+			}
+			
+			.footer h6{
+			color: white;
+			}
+			
+			.footer div a{
+			 margin-right: 72px;
+			font-size: 18px;
+			color: #e9ecef;
+			}
+			
+/* <!-- ======================= end of footer ===========================  -->	 */
+
+  
+
+
+/*///////////////////////////   style for mobil*/
+/*///////////////////////////   style for mobil*/
+
+@media only screen and (max-width: 800px) {
+
+   .background_img_with_text i {
+       padding-left: 0px;
+
+   
+   }
+
+   
+.background_img_with_text {
+	    margin-top: 30px;
+    height: 360px;
+
+}
+
+.contact_form form .message {
+    width: 312px;
+    height: 97px;
+}
+.contact_form form .submit {
+  margin-left: 0px; 
+
+}
+
+.contaner_1 td, h3 {
+    padding-left: 0px;
+}
+.contaner_1 table th {
+    padding-right: 78px;
+    font-size: 19px;
+	    padding-left: 3px;
+
+}
+
+.contaner_1 h3 {
+    margin-top: 17px;
+    font-size: 22px;
+}
+
+.contaner_2 {
+    padding-left: 19px;
+	font-size: 15px;
+    margin-top: 55px;
+}
+
+.contaner_3 {
+    padding-left: 13px;
+}
+
+.contaner_3 input{
+	 width: 100%;
+    font-size: 22px;
+    height: 58px
+}
+.contaner_3 form .submit {
+    width: 100%;
+    font-size: 35px;
+    height: 58px;
+    margin-bottom: 19px;
+}
+
+.footer{
+	    margin-top: -1px;
+
+}
+
+
+.footer h6 {
+    font-size: 20px;
+}
+
+.footer div a {
+    margin-right: 71px;
+}    
+
+}
+
+
+
+@media only screen and (min-width: 1000px) and (max-width : 1280px) {
+
+
+
+}
