@@ -552,6 +552,7 @@ input[type="checkbox"] {
   height: 100%;
 }
 @media(max-width:991px) {
+  
   .basic-1 .p-large {
     font-size: 20px;
     line-height: 39px;
@@ -569,9 +570,7 @@ input[type="checkbox"] {
     font-weight: 700;
   }
 
-  .header .area-2 {
-  
-  }
+
 }
 
 @media (max-width: 768px) {
