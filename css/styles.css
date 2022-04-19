@@ -553,7 +553,7 @@ input[type="checkbox"] {
 }
 @media(max-width:991px) {
   .basic-1 .p-large {
-    font-size: 23px;
+    font-size: 20px;
     line-height: 39px;
   }
 
