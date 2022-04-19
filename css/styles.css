@@ -65,7 +65,8 @@ h6 {
 
 .p-large {
   font-size: 1.125rem;
-  line-height: 1.75rem;
+  line-height: 39px;
+  width: 82%;
 }
 
 .p-small {
@@ -552,11 +553,14 @@ input[type="checkbox"] {
   height: 100%;
 }
 @media(max-width:991px) {
-  
+
   .basic-1 .p-large {
     font-size: 20px;
     line-height: 39px;
+    width: 100%;
   }
+
+  
 
   .header .text-container {
     max-width:none;
@@ -637,7 +641,7 @@ input[type="checkbox"] {
 
 @media (max-width: 767px) {
   .about-text {
-    color: #d9cab3;
+    color: #212121;
     padding: 18px 34px;
   }
 
